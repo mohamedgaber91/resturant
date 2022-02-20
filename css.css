@@ -1052,13 +1052,14 @@ body{
         padding: 7px;
         height: 360%;
         display: none;
-        border: 3px solid black;
+        border: 3px solid white;
         transition: var(--main-transition);
+        display:block;
         
     }
     
     .header .nav .search:hover .linkatc{
-        display: block;
+        display: none;
     }
    
     .header .search .linkatc ul{
@@ -1136,7 +1137,7 @@ body{
     .container .product .procont{
         grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
         display: grid;
-        text-align: center;
+        justify-items: center;
         
     }
     .container .product .procont img{
@@ -1145,6 +1146,7 @@ body{
     .container .product .procont h3{
         font-size: 25px;
         font-family:cursive;
+        text-align: center;
     }
     .container .product .procont p{
         font-size: 20px;
